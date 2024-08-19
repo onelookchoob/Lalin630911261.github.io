@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showSection('home')">Home</button></li>
+                <li><button onclick="showSection('experience')">Experience</button></li>
+                <li><button onclick="showSection('projects')">Projects</button></li>
+                <li><button onclick="showSection('contact')">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content">
+            <h2>Home</h2>
+            <p>Hi, My Name is Lalin Rakwong.</p>
+            <div class="profile-image">
+                <img src="C:\Users\User\Desktop\hw630911261\Lalinsuay.jpg" alt=" ">
+            </div>
+            <h3>ข้อดี</h3>
+            <ul>
+                <li>ขยัน อดทน มีวินัย</li>
+                <li>มีความสามารถในการสื่อสารได้ดีเยี่ยม</li>
+                <li>รับฟัง แก้ไข ปรับปรุง</li>
+            </ul>
+            <h3>ข้อเสีย</h3>
+            <ul>
+                <li>ไม่กล้าแสดงออก</li>
+                <li>ไม่ทำงานเกินเวลา</li>
+            </ul>
+            <h3>ทักษะ</h3>
+            <ul>
+                <li>การวิเคราะห์วงจรไฟฟ้า</li>
+                <li>การใช้โปรแกรม microsoft office</li>
+                <li>การเขียนโปรแกรมโดยใช้ภาษา C, Python</li>
+            </ul>
+            <h3>Projects</h3>
+            <ul>
+                <li><button onclick="showSection('projects')">View Projects</button></li>
+            </ul>
+        </section>
+
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <h3>Experience</h3>
+            <ul>
+                <li>
+                    <strong>เป็นพี่เลี้ยงคุมค่าย</strong> 
+                    <img src="C:\Users\User\Desktop\hw630911261\ผู้คุม.jpg" alt="เป็นพี่เลี้ยงคุมค่าย" class="experience-image">
+                </li>
+                <li>
+                    <strong>เข้าค่ายสิ่งแวดล้อมของมหาลัยมหิดล</strong>
+                    
+                </li>
+            </ul>
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <strong>Silpakorn University</strong> (2018 - 2023)
+        
+                </li>
+                <li>
+                    <strong>Lalin Rakwong</strong> (2014 - 2018)
+                    <p>GPA:2.86</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="projects" class="content" style="display: none;">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>ประธานชุมนุมสุขภาพ</p>
+                <img src="C:\Users\User\Desktop\hw630911261\ประธาน.jpg" alt="ประธานชุมนุมสุขภาพ" class="project-image">
+            </div>
+        </section>
+        
+
+        <section id="contact" class="content" style="display: none;">
+            <h2>Contact</h2>
+            <p>Email: Rakwong_l@silpakorn.edu</p>
+            <p>FaceBook: <a href="https://www.facebook.com/profile.php?id=100007009784051" target="_blank"> View Profile </a></p>
+            <p>IG: <a href="https://www.instagram.com/ririnx.lc/" target="_blank"> View Profile </a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Lalin Rakwong</p>
+    </footer>
+
+    <script src="SC.js"></script>
+</body>
+</html>
